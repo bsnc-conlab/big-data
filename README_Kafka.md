@@ -89,9 +89,11 @@ zookeeper.connection.timeout.ms=6000
 ```
 
 
-## 2.4 Run
+# 3. Run and Test
 
-### 2.4.1 For Linux
+## 3.1 Run
+From here Windows recommends using a command and Linux recommends using a terminal.
+### 3.1.1 For Linux
 To run Zookeeper
 
 ```bash
@@ -119,7 +121,7 @@ To check generated topic
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 ```
 
-### 2.4.2 For Windows
+### 3.1.2 For Windows
 To run Zookeeper
 
 ```bash
@@ -147,9 +149,9 @@ To check generated topic
 bin/kafka-topics.bat --list --zookeeper localhost:2181
 ```
 
-## 2.5 Test
+## 3.2 Test
 
-### 2.5.1 For Linux
+### 3.1 For Linux
 
 Run Producer
 ```bash
@@ -163,7 +165,7 @@ Run Consumer
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic bsnc --from-beginning
 ```
 
-### 2.5.2 For Windows
+### 3.2 For Windows
 
 Run Producer
 ```bash
