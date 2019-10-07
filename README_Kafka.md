@@ -163,7 +163,7 @@ Run Consumer
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic bsnc --from-beginning
 ```
 
-### 2.5.1 For Linux
+### 2.5.2 For Windows
 
 Run Producer
 ```bash
